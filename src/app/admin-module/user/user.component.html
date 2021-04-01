@@ -1,0 +1,18 @@
+<br>
+<br>
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Full Name</th>
+    <th scope="col">Group ID</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let user of users">
+    <td>{{user.id}}</td>
+    <td>{{user.name}}</td>
+    <td>{{user.group}}</td>
+  </tr>
+  </tbody>
+</table>
